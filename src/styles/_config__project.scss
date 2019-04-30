@@ -1,0 +1,82 @@
+///*-------------------------------------------------------------------------
+//   #SETTINGS CONFIG
+//--------------------------------------------------------------------------*/
+
+//	CONTENT THIS FILE:
+//		# NAMESPACE
+//      # CONFIG - FONTS
+//		# BASIC VALUE FOR PROJECT
+//      # HEADINGS | FONT-SIZE DEFAULT
+//		# CONFIG - RESPONSIVE TYPE AND MEDIAQUERIES 
+//		# HEADER CONFIG
+
+
+///*-------------------------------------------------------------------------
+//   	# NAMESPACE
+//--------------------------------------------------------------------------*/
+
+$wf__ns: ng- !default;
+$wf__anim: $wf__ns + anim__;
+
+///*-----------------------------------------------------
+///     # CONFIG - FONTS
+///-----------------------------------------------------*/
+$wf__font--default: 'Assistant';
+$wf__font--alternative: Arial;
+
+///*-------------------------------------------------------------------------
+//   	# BASIC VALUE FOR PROJECT
+//--------------------------------------------------------------------------*/
+
+$wf__base-font-size: 16;
+$wf__base-line-height: 1.5;
+$wf__base-background-color: default;
+$wf__base-color: typography;
+$wf__base-font-family: $wf__font--default;
+$wf__base-spacing: 30;
+$wf__base-path-font: "/assets/fonts/" !default;
+$wf__base-path-img: "../assets/img/";
+$wf__base-path-icons: "../assets/icons/";
+$wf__base-shadow: 0 6px 16px rgba(0, 0, 0, .15);
+$wf__base-page-padding: 20px;
+$wf__base-control-height: 30px;
+
+///*------------------------------------
+//    # HEADINGS | FONT-SIZE DEFAULT
+//------------------------------------*/
+
+$wf__h1: 32 !default;
+$wf__h2: 24 !default;
+$wf__h3: 20 !default;
+$wf__h4: 18 !default;
+$wf__h5: 13 !default;
+$wf__h6: 11 !default;
+
+///*-----------------------------------------------------
+///		# CONFIG - RESPONSIVE TYPE AND MEDIAQUERIES 
+///-----------------------------------------------------*/
+
+$wf__container-padding: 40px;
+$wf__container-padding-sm: 20px;
+
+$wf__extra-large: 1500px;
+$wf__large: 1366px;
+$wf__medium: 1280px;
+$wf__tab: 1024px;
+$wf__extra-small: 576px;
+
+$grid-breakpoints: (
+    xl: $wf__extra-large,
+    lg: $wf__large,
+    md: $wf__medium,
+    sm: $wf__tab,
+    esm: $wf__extra-small,
+) !default;
+
+///*-----------------------------------------------------
+///		# HEADER CONFIG
+///-----------------------------------------------------*/
+
+$wf__header-height: 60px;
+$wf__info-panel-height: 124px;
+$wf__unit-menu-height: 36px;

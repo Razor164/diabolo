@@ -1,0 +1,5 @@
+@each $key, $value in $color-map {
+    .#{$wf__ns}#{$key} {
+        color: $value !important;
+    }
+}

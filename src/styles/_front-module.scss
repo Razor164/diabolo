@@ -1,0 +1,40 @@
+///*-------------------------------------------------------------------------
+//   # FRONT MODULES CONFIG
+//--------------------------------------------------------------------------*/
+//	CONTENT THIS FILE:
+//		# IMPORT FILE CONFIG SCSS
+//      # SETTINGS
+//		# TOOLS
+//      # GENERIC
+//      # ELEMENTS
+//      # COMPONENTS
+//      # TRUMPS
+//      # ANIMATIONS
+// /*----------------------------------------------------------
+//     # GENERIC
+// ----------------------------------------------------------*/
+@import '02-generic/generic__box-sizing';
+@import '02-generic/generic__fonts';
+@import '02-generic/generic__reset';
+// /*----------------------------------------------------------
+//     # ELEMENTS
+// ----------------------------------------------------------*/
+@import '03-elements/elements__body';
+@import '03-elements/elements__headings';
+@import '03-elements/elements__html';
+@import '03-elements/elements__image';
+@import '03-elements/elements__lists';
+@import '03-elements/elements__scrollbar';
+// /*----------------------------------------------------------
+//     # COMPONENTS
+// ----------------------------------------------------------*/
+@import '04-components/components__flag';
+// /*----------------------------------------------------------
+//     # TRUMPS
+// ----------------------------------------------------------*/
+@import '05-trumps/trumps__colors';
+@import '05-trumps/trumps__rotate';
+// /*----------------------------------------------------------
+//     # ANIMATIONS
+// ----------------------------------------------------------*/
+@import '06-animations/animations__rotate';

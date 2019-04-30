@@ -1,0 +1,21 @@
+// /*-------------------------------------------
+// 	#FONT GENERATOR
+// ---------------------------------------------*/
+
+//  Copy font files into assets/fonts/
+//  Gulp automatic copy this files into css/fonts
+
+///* Example for use @font-face
+//
+//	@include font-face([name-font],
+//		$wf__base-path-font+'[name-font]',
+//		[font-style],
+//		[font-weight],
+//		[type-font(eot | woff | svg | ttf)]
+//	);
+//
+//*/
+
+@include font-face('Assistant', $wf__base-path-font+'Assistant/Assistant-Regular', 400, normal, otf);
+@include font-face('Assistant', $wf__base-path-font+'Assistant/Assistant-SemiBold', 500, normal, ttf);
+@include font-face('Assistant', $wf__base-path-font+'Assistant/Assistant-Bold', 600, normal, otf);

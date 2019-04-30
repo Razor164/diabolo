@@ -1,0 +1,15 @@
+///*------------------------------------
+//    #Z-INDEX-MAP
+//--------------------------------------*/
+
+$z-index-map: (
+  base: 0,
+  offcanvas: 1,
+  dropdown: 10,
+  tooltip: 15,
+  table: 100,
+  lightbox: 500,
+  header: 1000,
+  overlay: 9998,
+  preloader: 9999,
+);

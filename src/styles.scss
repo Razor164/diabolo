@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+@import './styles/utiles';
+@import './styles/front-module';
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+
+.shadow {
+  -webkit-box-shadow: 2px 2px 13px 1px rgba(86, 86, 86, 1);
+  -moz-box-shadow: 2px 2px 13px 1px rgba(86, 86, 86, 1);
+  box-shadow: 2px 2px 13px 1px rgba(86, 86, 86, 1);
+}
+
+.inner-shadow {
+  -webkit-box-shadow: inset 1px 1px 4px 1px rgba(174, 174, 174, 1);
+  -moz-box-shadow: inset 1px 1px 4px 1px rgba(174, 174, 174, 1);
+  box-shadow: inset 1px 1px 4px 1px rgba(174, 174, 174, 1);
+}

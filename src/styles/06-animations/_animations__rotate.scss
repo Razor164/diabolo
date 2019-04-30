@@ -1,0 +1,21 @@
+.#{$wf__anim}rotate {
+	animation: #{$wf__anim}rotate 1s linear infinite reverse;
+}
+
+@keyframes #{$wf__anim}rotate {
+	0% {
+		transform: rotateZ(0);
+	}
+	100% {
+		transform: rotateZ(360deg);
+	}
+}
+
+@keyframes g-border-right {
+  0% {
+    border-right: 1px solid transparent;
+  }
+  100% {
+    border-right: 1px solid color(typography);
+  }
+}
