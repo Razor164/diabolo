@@ -10,6 +10,7 @@ import { getGlobalState } from '../../store/global/global.reducer';
 import { map } from 'rxjs/operators';
 import { CountryCallingCode } from 'libphonenumber-js';
 import { NationalNumber } from 'libphonenumber-js';
+import { CountryCode } from '../../core/models/country-code';
 
 @Component({
     selector: 'diabolo-phone-picker',
@@ -26,7 +27,7 @@ import { NationalNumber } from 'libphonenumber-js';
 })
 export class PhonePickerComponent implements ControlValueAccessor {
     form: FormGroup;
-    codes$: Observable<any>;
+    codes$: Observable<CountryCode[]>;
     @Output() onChange: EventEmitter<E164Number> = new EventEmitter();
 
     private _initial: { code: CountryCallingCode, phone: NationalNumber };
